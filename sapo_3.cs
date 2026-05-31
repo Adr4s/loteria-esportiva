@@ -10,9 +10,9 @@ class Program
         int resultado = CalcularMinimoSaltos(A);
 
         if (resultado != -1)
-            Console.WriteLine($"Número mínimo de saltos: {resultado}");
+            Console.WriteLine($"Numero minimo de saltos: {resultado}");
         else
-            Console.WriteLine("O sapo não consegue atravessar.");
+            Console.WriteLine("O sapo nao consegue atravessar");
     }
 
     static int CalcularMinimoSaltos(int[] A)
